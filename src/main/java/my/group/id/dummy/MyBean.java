@@ -8,6 +8,7 @@ public class MyBean {
 		return greeting;
 	}
 
+	// Setter of greeting
 	public void setGreeting(String greeting) {
 		this.greeting = greeting;
 	}	
