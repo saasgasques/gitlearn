@@ -10,7 +10,5 @@ public class MyBean {
 
 	public void setGreeting(String greeting) {
 		this.greeting = greeting;
-	}
-	
-	
+	}	
 }
