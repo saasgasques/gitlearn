@@ -1,4 +1,11 @@
+# Eclipse
 .project
 .classpath
 .settings/
+
+# MVN
 target/
+
+# IDEA
+.idea/
+dummy.iml
