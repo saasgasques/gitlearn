@@ -2,6 +2,7 @@ package my.group.id.dummy;
 
 public class MyBean {
 
+    // Comentari a l'atribut greeting
 	private String greeting;
 
 	public String getGreeting() {
