@@ -1,0 +1,45 @@
+<xs:complexType name="OTData">
+    <xs:sequence>
+        <xs:element minOccurs="0" name="operationalSiteID" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="installationID" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="systemOrigin" nillable="true" type="xs:string"/>
+        <xs:element name="otClassID" nillable="true" type="xs:int"/>
+        <xs:element minOccurs="0" name="otOriginID" nillable="true" type="xs:string"/>
+        <xs:element name="createDate" nillable="true" type="xs:dateTime"/>
+        <xs:element name="requestDate" nillable="true" type="xs:dateTime"/>
+        <xs:element minOccurs="0" name="otTypeID" nillable="true" type="xs:string"/>
+        <xs:element name="supplyPointId" nillable="true" type="xs:int"/>
+        <xs:element minOccurs="0" name="location" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="streetType" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="streetCode" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="streetName" nillable="true" type="xs:string"/>
+        <xs:element name="streetNumber" nillable="true" type="xs:int"/>
+        <xs:element minOccurs="0" name="blockHouse" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="ladder" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="floor" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="door" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="postalCode" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="addressComplement" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="duplicate" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="gate" nillable="true" type="xs:string"/>
+        <xs:element name="km" nillable="true" type="xs:decimal"/>
+        <xs:element minOccurs="0" name="completeAddress" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="originMotiveDescription" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="customerContract" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="element" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="classElement" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="elementComment" nillable="true" type="xs:string"/>
+        <xs:element name="key" nillable="true" type="xs:int"/>
+        <xs:element minOccurs="0" name="emplacement" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="geographicalCriterion" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="hydraulicCriterion" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="readingArea" nillable="true" type="xs:string"/>
+        <xs:element name="remoteMeterReading" nillable="true" type="xs:boolean"/>
+        <xs:element minOccurs="0" name="originalLotNumber" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="district" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="motiveCC" nillable="true" type="xs:string"/>
+        <!-- Està documentat un tipus d'isntal·lació que no surt al wsdl -->
+        <!-- Aquest tag no està documentat -->
+        <xs:element minOccurs="0" name="systemOriginCreationUser" nillable="true" type="xs:string"/>
+    </xs:sequence>
+</xs:complexType>
